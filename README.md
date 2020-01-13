@@ -1,6 +1,8 @@
 
 <p align="center"><img src="./assets/logo1.png"></p>
 ## TF-RL(Reinforcement Learning with Tensorflow: EAGER!!)
+[![](https://img.shields.io/badge/TensorFlow-v2.0-blue)](https://github.com/Rowing0914/TF2_RL) [![](https://img.shields.io/badge/Platform-Google%20Colab-lightgrey)](https://github.com/Rowing0914/TF2_RL)
+
 This is the repo for implementing and experimenting the variety of RL algorithms using **Tensorflow Eager Execution**. And, since our Lord Google gracefully allows us to use their precious GPU resources without almost restriction, I have decided to enable most of codes run on **Google Colab**. So, if you don't have GPUs, please feel free to try it out on **Google Colab**
 
 Note: As it is known that **Eager mode** is slower than **Graph Execution** in execution time so that I am using **Eager** for debugging and **Graph** mode for training!! How is it possible?? `@tf.function` allows us to render an annotated function to the **computational graph** at execution.
