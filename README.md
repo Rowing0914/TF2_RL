@@ -1,7 +1,6 @@
 
 <p align="center"><img src="./assets/logo1.png"></p>
-
-## TF-RL(Reinforcement Learning with Tensorflow: EAGER!!)
+## TF-RL2(Reinforcement Learning with Tensorflow: EAGER!!)
 
 [![](https://img.shields.io/badge/TensorFlow-v2.0-blue)](https://github.com/Rowing0914/TF2_RL) [![](https://img.shields.io/badge/Platform-Google%20Colab-lightgrey)](https://github.com/Rowing0914/TF2_RL)
 
@@ -13,19 +12,8 @@ Note: As it is known that **Eager mode** is slower than **Graph Execution** in e
 
 ## Installation
 
-- Install from Pypi(Test)
-
 ```shell
-# this one
-$ pip install --index-url https://test.pypi.org/simple/ --no-deps TF_RL
-# or this one
-$ pip install -i https://test.pypi.org/simple/ TF-RL
-```
-
-- Install from Github source
-
-```shell
-git clone https://github.com/Rowing0914/TF_RL.git
+git clone https://github.com/Rowing0914/TF_RL2.git
 cd TF_RL
 python setup.py install
 ```
@@ -34,7 +22,7 @@ python setup.py install
 
 ## Features
 
-- Ready-to-run on Google colab( [Result of DQN](https://github.com/Rowing0914/TF_RL/blob/master/result/DQN/README.md) )
+- Ready-to-run on Google colab( [Result of DQN](https://github.com/Rowing0914/TF_RL/blob/master/result/DQN/README.md))
 
 ```shell
 # you can run on google colab, but make sure that there some restriction on session
@@ -80,9 +68,8 @@ time.sleep(0.5)
 
 - Please check `tf_rl/examples`, each directory contains its own `README` so please follow it as well!!
 
-- Textbook implementations: R.Sutton's Great Book!
+- I've tried some implementations from R.Sutton's Great Book!
 
-  https://github.com/Rowing0914/TF_RL/tree/master/examples/Sutton_RL_Intro
 
 
 
