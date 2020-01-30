@@ -123,7 +123,7 @@ def main(params):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--env_name", default="Pong", help="env name")
+    parser.add_argument("--env_name", default="Breakout", help="env name")
     parser.add_argument("--seed", default=123, help="seed of randomness")
     parser.add_argument("--eps_start", default=1.0, help="annealing eps: start")
     parser.add_argument("--eps_end", default=0.01, help="annealing eps: end")
