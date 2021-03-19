@@ -36,7 +36,7 @@ opencv-python==4.1.1.26
 opt-einsum==3.1.0
 pandas==0.25.1
 pathvalidate==0.29.0
-Pillow==6.2.0
+Pillow==8.1.1
 progressbar2==3.39.3
 protobuf==3.10.0
 pybullet==2.5.6
